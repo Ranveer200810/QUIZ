@@ -23,6 +23,7 @@ function draw(){
   if(contestantCount === 2){
     quiz.update(1);
   }
+  
   if(gameState === 1){
     clear();
     quiz.play();

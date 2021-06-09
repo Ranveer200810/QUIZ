@@ -11,7 +11,7 @@ class Question {
     this.option3 = createElement('h4');
     this.option4 = createElement('h4');
   }
-
+  
   hide(){
     this.title.hide();
     this.input1.hide();
@@ -20,7 +20,6 @@ class Question {
   }
 
   display(){
-    console.log("question display");
     this.title.html("MyQuiz Game");
     this.title.position(350, 0);
 
