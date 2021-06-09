@@ -57,5 +57,6 @@ class Question {
       contestantCount = 0;
       contestant.updateCount(contestantCount);
       gameState = 0;
+    });
   }
 }
